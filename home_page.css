@@ -1,0 +1,112 @@
+body{
+    background-color: blanchedalmond;
+}
+
+a:link{
+    font-weight: bold;
+    color:rgb(150, 0, 187);
+    background-color: rgb(243, 156, 18);
+}
+
+a:visited{
+    font-weight: bold;
+    color:rgb(103, 0, 129);
+    background-color: rgb(243, 156, 18);
+}
+
+a:hover{
+    font-weight: bold;
+    color:rgb(204, 0, 255);
+    background-color: rgb(243, 156, 18);
+}
+
+a:active{
+    font-weight: bold;
+    color:rgb(243, 197, 255);
+    background-color: rgb(243, 156, 18);
+}
+
+.center{
+    text-align: center;
+}
+
+section{
+    background: rgb(247, 220, 111);
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+}
+
+footer{
+    background: rgb(247, 220, 111);
+    border-radius: 25px;
+    margin: 30px;
+}
+
+nav{
+    background: rgb(247, 220, 111);
+    border-radius: 25px;
+    margin: 30px;
+    color:rgb(199, 0, 57);
+    background-color: rgb(241, 196, 15);
+    text-align: center;
+    padding:10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    color:rgb(88, 24, 69);
+    background-color: rgb(243, 156, 18);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hobbies > div{
+    color:rgb(88, 24, 69);
+    background-color: rgb(243, 156, 18);
+    border-radius: 25px;
+}
+
+h2,h3{
+    color:rgb(199, 0, 57);
+    background-color: rgb(241, 196, 15);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+ol,ul{
+    color:rgb(88, 24, 69);
+    background-color: rgb(243, 156, 18);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+p{
+    color:rgb(88, 24, 69);
+    background-color: rgb(243, 156, 18);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+/* https://htmlcolorcodes.com/  *\
