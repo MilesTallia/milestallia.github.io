@@ -1,0 +1,171 @@
+/*   
+
+text color - #041E42 - dallas cowboy blue
+background color - #F5FEFD - snow
+links - various colors
+footer - 9bc2eb - edited columbie blue
+button - #00CED1 - cyan
+
+*/
+
+/* latin-ext */
+@font-face{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lexend Deca Regular'), local('LexendDeca-Regular'), url(https://fonts.gstatic.com/s/lexenddeca/v1/K2F1fZFYk-dHSE0UPPuwQ5qpJy_KZA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lexend Deca Regular'), local('LexendDeca-Regular'), url(https://fonts.gstatic.com/s/lexenddeca/v1/K2F1fZFYk-dHSE0UPPuwQ5qnJy8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    background-color: #F5FEFD;
+    color: #041E42;
+    font-family: "Lexend Deca";
+}
+
+a:link{
+    font-weight: bold;
+    color:#00CED1;
+}
+
+a:visited{
+    font-weight: bold;
+    color:#008E97;
+}
+
+a:hover{
+    font-weight: bold;
+    color:#7FFFD4;
+}
+
+a:active{
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.center{
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #4682B4;
+    border-radius: 20px/30px;
+    margin: 20px 10px;
+    padding:10px;
+}
+
+nav{
+    background: #4682B4;
+    border-radius: 20px/30px;
+    margin: 20px 10px;
+    padding:10px;
+}
+
+a.navButton{
+    background-color: #00CED1;
+    color: #041E42;
+    text-shadow: 2px 2px #00CED1, -2px 2px #00CED1, 2px -2px #00CED1, -2px -2px #00CED1,2px 0 #00CED1, 0 2px #00CED1, 0 -2px #00CED1, -2px 0 #00CED1;
+    height: 40px;
+    width: 15%;
+    min-width: 40px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.homeLink{
+    height: 50px;
+    width: 50px;
+}
+
+.sameLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linktreeButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.copyright{
+    color: #9bc2eb;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a.self{
+    border-color: #00585e;
+    border-width: 5px 15px;
+    border-style: solid;
+    height: 30px;
+    
+    width: calc(15% - 30px);
+    min-width: 10px;
+    max-width: 370px;
+}
+
+.mainContent {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.navPreviews{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-auto-rows: calc((100%-50)/2);
+    grid-auto-columns: calc((100%-50)/2);
+}
+
+embed {
+    width: 100%;
+    height: 100%;
+}
+
+.articleImage{
+    border-radius: 12px;
+}
+
+.poem{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.poemLeft{
+    display:flex;
+    justify-content: flex-start;
+    min-width: 460px;
+}
+
+.poemRight{
+    display:flex;
+    justify-content: flex-end;
+    min-width: 397px;
+}
