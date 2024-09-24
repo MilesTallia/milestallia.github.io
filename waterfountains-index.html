@@ -3,9 +3,30 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>An Ode to Waterfountains</title>
+        <title>Waterfountains</title>
         <link rel="icon" type="image/x-icon" href="assets/images/home_button.svg">
         <link rel="stylesheet" href="assets/css/waterfountains.css">
+
+        <script>
+            var pics = [
+                 "assets/images/home-fountains/80-fountain.jpg"
+               , "assets/images/home-fountains/bent-fountain.jpg"
+               , "assets/images/home-fountains/busy-fountain.jpg"
+               , "assets/images/home-fountains/double-fountain.jpg"
+               , "assets/images/home-fountains/family-fountain.jpg"
+               , "assets/images/home-fountains/farquad-fountain.jpg"
+               , "assets/images/home-fountains/love-fountain.jpg"
+               , "assets/images/home-fountains/world-trade-fountain.jpg"
+            ];
+            function writePic() {
+              var totalScript = '<img class=\"homepageImage\" src=\"';
+              var randbro = Math.floor(Math.random() * pics.length);
+              totalScript += pics[randbro];
+              totalScript += '\" alt=\"An image of a beautiful waterfountain.\"/>';
+              return totalScript;
+            }
+          </script>
+
     </head>
     <body>
         <!--Nav Bar-->
@@ -18,7 +39,7 @@
                 <a class="navButton" href="waterfountains-history.html">History</a>
                 <a class="navButton" href="waterfountains-current.html">Current</a>
                 <a class="navButton" href="waterfountains-future.html">Future</a>
-                <a class="navButton self" href="waterfountains-poem.html">Poem</a>
+                <a class="navButton" href="waterfountains-poem.html">Poem</a>
 
                 <!--Linktree-->
                 <a class="homeLink" href="https://linktr.ee/milestallia" target="_blank"><img class="homeLink" src="assets/images/linktree.svg" alt="contact"></a>
@@ -26,54 +47,41 @@
         </nav>
         <!--Main Content-->
         <div class="mainContent">
-            <h1>An ode to waterfountains</h1>
-            <h3>By Miles Tallia</h3>
+            <h1>Waterfountains</h1>
+            <p>
+                Waterfountains, (genus <i>Drinkus Fountainus</i>), sometimes also called 
+                bubblers (by morons) are an integral part of our society.
+                They allow us to access that most important thing to us all, water. 
+                For without them we would surely be a lesser people.
+                This Website is itself an ode to, a documentation of, and a symbol, of waterfountains.
+                They deserve our respect serviude and wonder, and this website is but my simple offering.
+                <br><br>
+                We will delve into the history of waterfountains, observing their rise in power of 
+                the many long years they have been on this planet.
+                We will turn the mirror towards ourselves and see how waterfountains are to be 
+                discovered in our current day.
+                We will also discuss the importance of these waterfountains moving forward and how
+                we can hope for the field to change in the future.
+                And we will take a small breather to enjoy some good poetry.
+                Enjoy the website!
+            </p>
 
-            <audio autoplay controls>
-                <source src="assets/media/waterfountain-poetry.mp3" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio>
         </div>
+        <!--Image-->
+        <script >
+            document.write(writePic());
+        </script>
+        <p>
+            <br>
+        </p>
+        <!--Nav Previews-->
 
-        <div class="poem">
-            <p class="poemLeft">
-                Oh water-fountain, how fair you are in the light morning air<br>
-                How your sweet liquid graces my lips<br>
-                The way of the water transcends the way of the people<br>
-                The iceberg that is you composer reimagines my world<br>
-            </p>
-            <p class="poemRight">
-                The duplicity of your existence<br>
-                The form you take in my mind<br>
-                Compared with the validity of your essence<br>
-                You may be a stranger, but you are kind<br>
-            </p>
-            <p class="poemLeft">
-                When I dream it is only of you<br>
-                In these dreams you are more than yourself yes<br>
-                But it is not what you aren't that I dream<br>
-                It is what you can bring that I dream<br>
-            </p>
-            <p class="poemRight">
-                For you I would travel any distance<br>
-                And when I go so far I am glad to find<br>
-                What but an extraordinary assistance<br>
-                And how it gets us intertwined<br>
-            </p>
-            <p class="poemLeft">
-                When I dream it is only of you<br>
-                In these dreams you are more than yourself yes<br>
-                But it is not what you aren't that I dream<br>
-                It is what you can bring that I dream<br>    
-            </p>
-            <p class="poemRight">
-                The beauty of your creation astounds us all<br>
-                I cannot but fear that if you fall<br>
-                The people may be lost in the tides of shadow<br>
-                And that you may have just received your last blow<br>
-            </p>
+        <div class="navPreviews">
+            <iframe class="preview" title="History page preview" src="assets/previews/waterfountains-history-preview.html"></iframe>
+            <iframe class="preview" title="Current page preview" src="assets/previews/waterfountains-current-preview.html"></iframe>
+            <iframe class="preview" title="Future page preview" src="assets/previews/waterfountains-future-preview.html"></iframe>
+            <iframe class="preview" title="Poem page preview" src="assets/previews/waterfountains-poem-preview.html"></iframe>
         </div>
-
         <!--Footer-->
         <footer>
 
@@ -86,7 +94,7 @@
                 <a class="navButton" href="waterfountains-history.html">History</a>
                 <a class="navButton" href="waterfountains-current.html">Current</a>
                 <a class="navButton" href="waterfountains-future.html">Future</a>
-                <a class="navButton self" href="waterfountains-poem.html">Poem</a>
+                <a class="navButton" href="waterfountains-poem.html">Poem</a>
 
                 <!--Linktree-->
                 <a class="homeLink" href="https://linktr.ee/milestallia" target="_blank"><img class="homeLink" src="assets/images/linktree.svg" alt="contact"></a>
@@ -117,6 +125,7 @@
                 to take the first step in helping to evolve this language into the much preferable 
                 "waterfountains" usage.
             </p>
+
         </footer>
     </body>
 </html>
