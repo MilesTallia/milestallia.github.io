@@ -198,6 +198,23 @@ a.projectLink:hover{
     margin-bottom: 0px;
 }
 
+.education{
+    background-color: #0e8c003a;
+    color: #000000;
+    width: 80%;
+    min-width: 150px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 15px;
+}
+
 @media only screen and (max-width:650px) {
     .sameLine{
         display: flex;
@@ -206,7 +223,7 @@ a.projectLink:hover{
     }
 
     .skillList{
-        width: 80%;
+        width: 70%;
     }
 
     .projectLink{
@@ -214,6 +231,14 @@ a.projectLink:hover{
     }
 
     .project{
-        width: 80%;
+        width: 70%;
+    }
+
+    .experience{
+        width: 70%;
+    }
+
+    .experienceBaja{
+        width: 70%;
     }
 }
